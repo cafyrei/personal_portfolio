@@ -401,6 +401,14 @@ section > h2 {
   color: var(--accent);
 }
 
+.cert .mono {
+  white-space: nowrap;
+  overflow: hidden;
+  -webkit-mask-image: linear-gradient(to right, rgba(0,0,0,1) 80%, rgba(0,0,0,0) 100%);
+  mask-image: linear-gradient(to right, rgba(0,0,0,1) 80%, rgba(0,0,0,0) 100%);
+  max-width: 60%;
+}
+
 /* About */
 .about p {
   margin: 0 0 16px;
